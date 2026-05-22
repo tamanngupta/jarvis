@@ -62,7 +62,7 @@ def activate():
     if activated:
         return
     activated = True
-    print("\n⚡ JARVIS ACTIVATED ⚡")
+    print("\n JARVIS ACTIVATED ")
     threading.Thread(target=play_song).start()
     time.sleep(1)
     webbrowser.open("https://www.formula1.com/en/latest/all.html")
@@ -74,7 +74,7 @@ def activate():
         time.sleep(1)
 
 
-print("ARVIS is running...")
+print("JARVIS is running...")
 
 
 while True:
